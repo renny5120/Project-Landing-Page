@@ -6,12 +6,14 @@ body{
     margin: 0;
 }
 
+
+
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: white;
-    padding: 8px;
+    padding: 0 400px;
 }
 
 .header-top{
@@ -111,16 +113,11 @@ img{
 .quote{
     display: flex;
     flex-direction: column;
-    padding: 16px 32px;
+    padding: 0px 500px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     margin: 0;
-}
-
-.quote#p{
-    padding: 0px 120px 0px 0px;
-    margin-bottom: 0;
 }
 
 .author{
@@ -131,7 +128,7 @@ img{
     margin-bottom: 30px;
 }
 
-.signup{
+.signup{    
     display: flex;
     justify-content: center;
 
@@ -147,7 +144,7 @@ img{
     padding: 32px;
     margin: 64px 0;
 
-    gap: 16px;
+    gap: 300px;
 }
 
 .signup-main{

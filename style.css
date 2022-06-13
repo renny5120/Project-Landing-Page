@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    
     margin: 0;
 }
 
@@ -66,6 +67,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 img{
     width: 200px;
     height: inherit;
@@ -87,19 +89,19 @@ img{
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 32px;
+    gap: 16px;
 
 }
 
 .box{
-    max-width: 210px;
+    max-width: 110px;
     align-self: center;
 }
 
 .empty{
     margin: auto;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: 5px solid #3882F6;
     border-radius: 25px;
     margin-bottom: 8px;
@@ -152,9 +154,19 @@ img{
     font-size: 24px;
     font-weight: bold;
 }
+
 .signup-button{
     align-self: center;
 
     border: 1px solid #E5E7EB;
     border-color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 32px;
 }
